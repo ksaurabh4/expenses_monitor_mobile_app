@@ -1,15 +1,14 @@
-# expense_tracker
+# expense_monitor
 
-A new Flutter project.
+A Flutter project to create app to manage and monitor personal expenses.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a basic single page Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![expense_monitor_flutter_app_1](https://user-images.githubusercontent.com/36674657/209932186-f3b38f66-4c81-4650-bac7-12d444023bbf.jpg)
+![expense_monitor_flutter_app_2](https://user-images.githubusercontent.com/36674657/209932213-85f34ee9-2e91-4a5c-977b-6e221c79df31.jpg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
