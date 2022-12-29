@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class ChartBar extends StatelessWidget {
   final String label;
   final double totalAmt;
-  final double toalPercentage;
-  const ChartBar(this.label, this.totalAmt, this.toalPercentage, {super.key});
+  final double totalPercentage;
+  const ChartBar(this.label, this.totalAmt, this.totalPercentage, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,7 @@ class ChartBar extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10)),
                 ),
                 FractionallySizedBox(
-                  heightFactor: toalPercentage,
+                  heightFactor: totalPercentage,
                   child: Container(
                     decoration: BoxDecoration(
                         color: Theme.of(context).primaryColor,
